@@ -1,0 +1,54 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f2f5;
+    color : #333;
+}
+.cabecalho{
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+}
+.container-principal{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap : 20px;
+    padding: 20px;
+}
+.cartao{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(241, 7, 7, 0.1);
+    width: 300px;
+    padding: 15px;
+    transition: transform 0.2s;
+}
+.cartao{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(5, 46, 230, 0.295);
+    width: 300px;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+.cartao{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(158, 240, 5, 0.1);
+    width: 300px;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+.cartao:hover{
+    transform: translateY(-5px);
+}
+.rodape{
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    background-color: #34495e;
+    color: #ecf0f1;
+}
